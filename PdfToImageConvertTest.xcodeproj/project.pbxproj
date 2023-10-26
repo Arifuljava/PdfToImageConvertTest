@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A8B8942AEA05F30059F96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8932AEA05F30059F96F /* AppDelegate.swift */; };
+		25A8B8962AEA05F30059F96F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8952AEA05F30059F96F /* SceneDelegate.swift */; };
+		25A8B8982AEA05F30059F96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8972AEA05F30059F96F /* ViewController.swift */; };
+		25A8B89B2AEA05F30059F96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A8B8992AEA05F30059F96F /* Main.storyboard */; };
+		25A8B89D2AEA05F40059F96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A8B89C2AEA05F40059F96F /* Assets.xcassets */; };
+		25A8B8A02AEA05F40059F96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A8B89E2AEA05F40059F96F /* LaunchScreen.storyboard */; };
+		25A8B8AB2AEA05F40059F96F /* PdfToImageConvertTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8AA2AEA05F40059F96F /* PdfToImageConvertTestTests.swift */; };
+		25A8B8B52AEA05F40059F96F /* PdfToImageConvertTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8B42AEA05F40059F96F /* PdfToImageConvertTestUITests.swift */; };
+		25A8B8B72AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8B62AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A8B8A72AEA05F40059F96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A8B8882AEA05F30059F96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A8B88F2AEA05F30059F96F;
+			remoteInfo = PdfToImageConvertTest;
+		};
+		25A8B8B12AEA05F40059F96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A8B8882AEA05F30059F96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A8B88F2AEA05F30059F96F;
+			remoteInfo = PdfToImageConvertTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A8B8902AEA05F30059F96F /* PdfToImageConvertTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfToImageConvertTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8B8932AEA05F30059F96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25A8B8952AEA05F30059F96F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25A8B8972AEA05F30059F96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25A8B89A2AEA05F30059F96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25A8B89C2AEA05F40059F96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25A8B89F2AEA05F40059F96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25A8B8A12AEA05F40059F96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A8B8A62AEA05F40059F96F /* PdfToImageConvertTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfToImageConvertTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8B8AA2AEA05F40059F96F /* PdfToImageConvertTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImageConvertTestTests.swift; sourceTree = "<group>"; };
+		25A8B8B02AEA05F40059F96F /* PdfToImageConvertTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfToImageConvertTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8B8B42AEA05F40059F96F /* PdfToImageConvertTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImageConvertTestUITests.swift; sourceTree = "<group>"; };
+		25A8B8B62AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImageConvertTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A8B88D2AEA05F30059F96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8A32AEA05F40059F96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8AD2AEA05F40059F96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A8B8872AEA05F30059F96F = {
+			isa = PBXGroup;
+			children = (
+				25A8B8922AEA05F30059F96F /* PdfToImageConvertTest */,
+				25A8B8A92AEA05F40059F96F /* PdfToImageConvertTestTests */,
+				25A8B8B32AEA05F40059F96F /* PdfToImageConvertTestUITests */,
+				25A8B8912AEA05F30059F96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A8B8912AEA05F30059F96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A8B8902AEA05F30059F96F /* PdfToImageConvertTest.app */,
+				25A8B8A62AEA05F40059F96F /* PdfToImageConvertTestTests.xctest */,
+				25A8B8B02AEA05F40059F96F /* PdfToImageConvertTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A8B8922AEA05F30059F96F /* PdfToImageConvertTest */ = {
+			isa = PBXGroup;
+			children = (
+				25A8B8932AEA05F30059F96F /* AppDelegate.swift */,
+				25A8B8952AEA05F30059F96F /* SceneDelegate.swift */,
+				25A8B8972AEA05F30059F96F /* ViewController.swift */,
+				25A8B8992AEA05F30059F96F /* Main.storyboard */,
+				25A8B89C2AEA05F40059F96F /* Assets.xcassets */,
+				25A8B89E2AEA05F40059F96F /* LaunchScreen.storyboard */,
+				25A8B8A12AEA05F40059F96F /* Info.plist */,
+			);
+			path = PdfToImageConvertTest;
+			sourceTree = "<group>";
+		};
+		25A8B8A92AEA05F40059F96F /* PdfToImageConvertTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				25A8B8AA2AEA05F40059F96F /* PdfToImageConvertTestTests.swift */,
+			);
+			path = PdfToImageConvertTestTests;
+			sourceTree = "<group>";
+		};
+		25A8B8B32AEA05F40059F96F /* PdfToImageConvertTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25A8B8B42AEA05F40059F96F /* PdfToImageConvertTestUITests.swift */,
+				25A8B8B62AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift */,
+			);
+			path = PdfToImageConvertTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A8B88F2AEA05F30059F96F /* PdfToImageConvertTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8B8BA2AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTest" */;
+			buildPhases = (
+				25A8B88C2AEA05F30059F96F /* Sources */,
+				25A8B88D2AEA05F30059F96F /* Frameworks */,
+				25A8B88E2AEA05F30059F96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PdfToImageConvertTest;
+			productName = PdfToImageConvertTest;
+			productReference = 25A8B8902AEA05F30059F96F /* PdfToImageConvertTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25A8B8A52AEA05F40059F96F /* PdfToImageConvertTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8B8BD2AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTestTests" */;
+			buildPhases = (
+				25A8B8A22AEA05F40059F96F /* Sources */,
+				25A8B8A32AEA05F40059F96F /* Frameworks */,
+				25A8B8A42AEA05F40059F96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A8B8A82AEA05F40059F96F /* PBXTargetDependency */,
+			);
+			name = PdfToImageConvertTestTests;
+			productName = PdfToImageConvertTestTests;
+			productReference = 25A8B8A62AEA05F40059F96F /* PdfToImageConvertTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25A8B8AF2AEA05F40059F96F /* PdfToImageConvertTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8B8C02AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTestUITests" */;
+			buildPhases = (
+				25A8B8AC2AEA05F40059F96F /* Sources */,
+				25A8B8AD2AEA05F40059F96F /* Frameworks */,
+				25A8B8AE2AEA05F40059F96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A8B8B22AEA05F40059F96F /* PBXTargetDependency */,
+			);
+			name = PdfToImageConvertTestUITests;
+			productName = PdfToImageConvertTestUITests;
+			productReference = 25A8B8B02AEA05F40059F96F /* PdfToImageConvertTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A8B8882AEA05F30059F96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					25A8B88F2AEA05F30059F96F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					25A8B8A52AEA05F40059F96F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 25A8B88F2AEA05F30059F96F;
+					};
+					25A8B8AF2AEA05F40059F96F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 25A8B88F2AEA05F30059F96F;
+					};
+				};
+			};
+			buildConfigurationList = 25A8B88B2AEA05F30059F96F /* Build configuration list for PBXProject "PdfToImageConvertTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25A8B8872AEA05F30059F96F;
+			productRefGroup = 25A8B8912AEA05F30059F96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A8B88F2AEA05F30059F96F /* PdfToImageConvertTest */,
+				25A8B8A52AEA05F40059F96F /* PdfToImageConvertTestTests */,
+				25A8B8AF2AEA05F40059F96F /* PdfToImageConvertTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A8B88E2AEA05F30059F96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8B8A02AEA05F40059F96F /* LaunchScreen.storyboard in Resources */,
+				25A8B89D2AEA05F40059F96F /* Assets.xcassets in Resources */,
+				25A8B89B2AEA05F30059F96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8A42AEA05F40059F96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8AE2AEA05F40059F96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A8B88C2AEA05F30059F96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8B8982AEA05F30059F96F /* ViewController.swift in Sources */,
+				25A8B8942AEA05F30059F96F /* AppDelegate.swift in Sources */,
+				25A8B8962AEA05F30059F96F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8A22AEA05F40059F96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8B8AB2AEA05F40059F96F /* PdfToImageConvertTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8B8AC2AEA05F40059F96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8B8B72AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift in Sources */,
+				25A8B8B52AEA05F40059F96F /* PdfToImageConvertTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A8B8A82AEA05F40059F96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A8B88F2AEA05F30059F96F /* PdfToImageConvertTest */;
+			targetProxy = 25A8B8A72AEA05F40059F96F /* PBXContainerItemProxy */;
+		};
+		25A8B8B22AEA05F40059F96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A8B88F2AEA05F30059F96F /* PdfToImageConvertTest */;
+			targetProxy = 25A8B8B12AEA05F40059F96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A8B8992AEA05F30059F96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A8B89A2AEA05F30059F96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25A8B89E2AEA05F40059F96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A8B89F2AEA05F40059F96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A8B8B82AEA05F40059F96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25A8B8B92AEA05F40059F96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A8B8BB2AEA05F40059F96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PdfToImageConvertTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25A8B8BC2AEA05F40059F96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PdfToImageConvertTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25A8B8BE2AEA05F40059F96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfToImageConvertTest.app/PdfToImageConvertTest";
+			};
+			name = Debug;
+		};
+		25A8B8BF2AEA05F40059F96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfToImageConvertTest.app/PdfToImageConvertTest";
+			};
+			name = Release;
+		};
+		25A8B8C12AEA05F40059F96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PdfToImageConvertTest;
+			};
+			name = Debug;
+		};
+		25A8B8C22AEA05F40059F96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V23C68N65J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grozziie.PdfToImageConvertTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PdfToImageConvertTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A8B88B2AEA05F30059F96F /* Build configuration list for PBXProject "PdfToImageConvertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8B8B82AEA05F40059F96F /* Debug */,
+				25A8B8B92AEA05F40059F96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8B8BA2AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8B8BB2AEA05F40059F96F /* Debug */,
+				25A8B8BC2AEA05F40059F96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8B8BD2AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8B8BE2AEA05F40059F96F /* Debug */,
+				25A8B8BF2AEA05F40059F96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8B8C02AEA05F40059F96F /* Build configuration list for PBXNativeTarget "PdfToImageConvertTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8B8C12AEA05F40059F96F /* Debug */,
+				25A8B8C22AEA05F40059F96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A8B8882AEA05F30059F96F /* Project object */;
+}
