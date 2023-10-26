@@ -16,6 +16,9 @@
 		25A8B8AB2AEA05F40059F96F /* PdfToImageConvertTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8AA2AEA05F40059F96F /* PdfToImageConvertTestTests.swift */; };
 		25A8B8B52AEA05F40059F96F /* PdfToImageConvertTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8B42AEA05F40059F96F /* PdfToImageConvertTestUITests.swift */; };
 		25A8B8B72AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8B62AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift */; };
+		25A8B8C42AEA0CE30059F96F /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8C32AEA0CE30059F96F /* SettingsController.swift */; };
+		25A8B8C62AEA28060059F96F /* SetDimensionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8C52AEA28060059F96F /* SetDimensionsController.swift */; };
+		25A8B8C82AEA76D00059F96F /* LinkToPrinterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8B8C72AEA76D00059F96F /* LinkToPrinterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		25A8B8B02AEA05F40059F96F /* PdfToImageConvertTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfToImageConvertTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A8B8B42AEA05F40059F96F /* PdfToImageConvertTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImageConvertTestUITests.swift; sourceTree = "<group>"; };
 		25A8B8B62AEA05F40059F96F /* PdfToImageConvertTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfToImageConvertTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25A8B8C32AEA0CE30059F96F /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		25A8B8C52AEA28060059F96F /* SetDimensionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDimensionsController.swift; sourceTree = "<group>"; };
+		25A8B8C72AEA76D00059F96F /* LinkToPrinterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkToPrinterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				25A8B89C2AEA05F40059F96F /* Assets.xcassets */,
 				25A8B89E2AEA05F40059F96F /* LaunchScreen.storyboard */,
 				25A8B8A12AEA05F40059F96F /* Info.plist */,
+				25A8B8C32AEA0CE30059F96F /* SettingsController.swift */,
+				25A8B8C52AEA28060059F96F /* SetDimensionsController.swift */,
+				25A8B8C72AEA76D00059F96F /* LinkToPrinterController.swift */,
 			);
 			path = PdfToImageConvertTest;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A8B8C42AEA0CE30059F96F /* SettingsController.swift in Sources */,
+				25A8B8C82AEA76D00059F96F /* LinkToPrinterController.swift in Sources */,
+				25A8B8C62AEA28060059F96F /* SetDimensionsController.swift in Sources */,
 				25A8B8982AEA05F30059F96F /* ViewController.swift in Sources */,
 				25A8B8942AEA05F30059F96F /* AppDelegate.swift in Sources */,
 				25A8B8962AEA05F30059F96F /* SceneDelegate.swift in Sources */,
@@ -442,6 +454,7 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PdfToImageConvertTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfConvert;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +483,7 @@
 				DEVELOPMENT_TEAM = V23C68N65J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PdfToImageConvertTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PdfConvert;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
